@@ -73,7 +73,7 @@
     <!-- Home Section -->
     <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-teal-500 to-navy-600 text-white section">
         <div class="text-center max-w-4xl mx-auto px-4">
-            <h1 class="text-5xl md:text-6xl font-bold mb-6 animate-pulse">Welcome to My Portfolio</h1>
+            <h1 class="text-3xl md:text-4xl font-bold mb-6 animate-pulse">Welcome to My Portfolio</h1>
             <p class="text-xl md:text-2xl mb-8">Computer Science graduate student passionate about Artificial Intelligence and Machine Learning.</p>
             <a href="#about" class="btn bg-coral-400 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-coral-500">Learn More</a>
         </div>
@@ -132,62 +132,26 @@
         </div>
     </section>
 
-  <!-- Blog Section -->
-<section id="blog" class="py-20 bg-white section">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-4xl font-bold text-center text-navy-600 mb-12">Blog</h2>
-        <div class="space-y-8 max-w-3xl mx-auto">
-            <!-- Blog Post 1: The Role of Generative AI in Career Development -->
-            <div class="card bg-gray-50 p-8 rounded-xl shadow-lg">
-                <h3 class="text-xl font-semibold text-teal-600 mb-3">The Role of Generative AI in Career Development</h3>
-                <p class="text-gray-600 mb-4 summary">Exploring how tools like Google Gemini can enhance resume optimization...</p>
-                <div class="full-content hidden">
-                    <p class="text-gray-600 mb-4">In today’s competitive job market, standing out as a candidate is more challenging than ever. Applicant Tracking Systems (ATS) often filter resumes before they reach human recruiters, leaving many qualified candidates overlooked due to formatting or keyword mismatches. This is where generative AI, such as Google Gemini, comes into play, revolutionizing career development by offering tools to optimize resumes in real time.</p>
-                    <p class="text-gray-600 mb-4">Google Gemini, a powerful generative AI model, can analyze job descriptions and compare them against a candidate’s resume, identifying gaps in keywords, skills, and formatting. For example, in a project I worked on, we integrated Gemini via API to provide personalized feedback to job seekers, achieving a 25% improvement in ATS compatibility (as discussed in my recent research paper). This technology not only saves time but also empowers candidates to tailor their applications with precision, increasing their chances of landing interviews.</p>
-                    <p class="text-gray-600 mb-4">Beyond resume optimization, generative AI can assist in writing cover letters, preparing for interviews by generating mock questions, and even suggesting career paths based on skill analysis. However, challenges remain, such as ensuring ethical use and addressing potential biases in AI models. As generative AI continues to evolve, its role in career development will only grow, making it an indispensable tool for job seekers.</p>
-                    <p class="text-gray-600 mb-4">Interested in learning more? <a href="#contact" class="text-coral-400 hover:text-coral-500">Contact me</a> to discuss how AI can enhance your career journey!</p>
+    <!-- Blog Section -->
+    <section id="blog" class="py-20 bg-white section">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-navy-600 mb-12">Blog</h2>
+            <div class="space-y-8 max-w-3xl mx-auto">
+                <!-- Blog Post 1: The Role of Generative AI in Career Development -->
+                <div class="card bg-gray-50 p-8 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold text-teal-600 mb-3">The Role of Generative AI in Career Development</h3>
+                    <p class="text-gray-600 mb-4">Exploring how tools like Google Gemini can enhance resume optimization...</p>
+                    <a href="generative_ai_career_development.html" class="btn inline-block text-coral-400 hover:text-coral-500 font-semibold">Read More</a>
                 </div>
-                <a href="#" class="btn inline-block text-coral-400 hover:text-coral-500 font-semibold toggle-content">Read More</a>
-            </div>
-            <!-- Blog Post 2: Scaling Data Pipelines with Python and Spark -->
-            <div class="card bg-gray-50 p-8 rounded-xl shadow-lg">
-                <h3 class="text-xl font-semibold text-teal-600 mb-3">Scaling Data Pipelines with Python and Spark</h3>
-                <p class="text-gray-600 mb-4 summary">My experience building ETL pipelines for large-scale telecom data...</p>
-                <div class="full-content hidden">
-                    <p class="text-gray-600 mb-4">During my recent project with a telecom company, I had the opportunity to build ETL (Extract, Transform, Load) pipelines for large-scale data using Python and Apache Spark. Telecom datasets are notoriously massive, often involving millions of records of customer usage, billing, and network performance data. Scaling these pipelines efficiently was a challenging but rewarding experience.</p>
-                    <p class="text-gray-600 mb-4">We started by extracting data from multiple sources, including CSV files and SQL databases, using Python’s pandas for initial exploration and Spark’s DataFrame API for distributed processing. The transformation phase involved cleaning missing values, normalizing data formats, and aggregating metrics like average call duration and data usage per user. Spark’s ability to handle distributed computing was crucial here, as it allowed us to process 50 GB of data in under 30 minutes on a 10-node cluster.</p>
-                    <p class="text-gray-600 mb-4">Loading the transformed data into a data warehouse (Snowflake) was the final step. We optimized the pipeline by partitioning the data by date and customer region, reducing write times by 40%. One challenge we faced was managing memory issues in Spark due to skewed data; we mitigated this by repartitioning the DataFrame and tuning the Spark executor memory. This project taught me the importance of optimizing resource allocation and the power of Spark for big data workflows.</p>
-                    <p class="text-gray-600 mb-4">Interested in learning more about scalable data pipelines? <a href="#contact" class="text-coral-400 hover:text-coral-500">Reach out</a> to discuss my approach!</p>
+                <!-- Blog Post 2: Scaling Data Pipelines with Python and Spark -->
+                <div class="card bg-gray-50 p-8 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold text-teal-600 mb-3">Scaling Data Pipelines with Python and Spark</h3>
+                    <p class="text-gray-600 mb-4">My experience building ETL pipelines for large-scale telecom data...</p>
+                    <a href="scaling_data_pipelines.html" class="btn inline-block text-coral-400 hover:text-coral-500 font-semibold">Read More</a>
                 </div>
-                <a href="#" class="btn inline-block text-coral-400 hover:text-coral-500 font-semibold toggle-content">Read More</a>
             </div>
         </div>
-    </div>
-</section>
-
-<!-- JavaScript to Toggle Content -->
-<script>
-document.querySelectorAll('.toggle-content').forEach(button => {
-    button.addEventListener('click', (e) => {
-        e.preventDefault();
-        const card = button.closest('.card');
-        const summary = card.querySelector('.summary');
-        const fullContent = card.querySelector('.full-content');
-        
-        if (fullContent.classList.contains('hidden')) {
-            // Show full content
-            summary.classList.add('hidden');
-            fullContent.classList.remove('hidden');
-            button.textContent = 'Read Less';
-        } else {
-            // Show summary
-            summary.classList.remove('hidden');
-            fullContent.classList.add('hidden');
-            button.textContent = 'Read More';
-        }
-    });
-});
-</script>
+    </section>
 
     <!-- Resume Section -->
     <section id="resume" class="py-20 bg-gray-100 section">
@@ -199,30 +163,30 @@ document.querySelectorAll('.toggle-content').forEach(button => {
             </div>
         </div>
     </section>
-    
-<!-- Contact Section -->
-<section id="contact" class="py-20 bg-white section">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-4xl font-bold text-center text-navy-600 mb-12">Contact</h2>
-        <div class="max-w-lg mx-auto text-center">
-            <p class="text-lg text-gray-600 mb-6">Reach out to me via email or connect on social media!</p>
-            <div class="flex justify-center gap-6">
-                <a href="mailto:ramyadabbarams@gmail.com" class="btn text-coral-400 hover:text-coral-500">
-                    <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/svgs/solid/envelope.svg" width="30" height="30" style="margin: 0 8px;">
-                </a>
-                <a href="https://www.linkedin.com/in/ramya-dabbara-7a573b349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="btn text-coral-400 hover:text-coral-500">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg" width="30" height="30" style="margin: 0 8px; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);">
-                </a>
-                <a href="https://x.com/RamyaDabbara" class="btn text-coral-400 hover:text-coral-500">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/x.svg" width="30" height="30" style="margin: 0 8px;">
-                </a>
-                <a href="https://github.com/RamyaDabbara" class="btn text-coral-400 hover:text-coral-500">
-                    <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/svgs/brands/github.svg" width="30" height="30" style="margin: 0 8px;">
-                </a>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white section">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-navy-600 mb-12">Contact</h2>
+            <div class="max-w-lg mx-auto text-center">
+                <p class="text-lg text-gray-600 mb-6">Reach out to me via email or connect on social media!</p>
+                <div class="flex justify-center gap-6">
+                    <a href="mailto:ramyadabbarams@gmail.com" class="btn text-coral-400 hover:text-coral-500">
+                        <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/svgs/solid/envelope.svg" width="30" height="30" style="margin: 0 8px;">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ramya-dabbara-7a573b349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="btn text-coral-400 hover:text-coral-500">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg" width="30" height="30" style="margin: 0 8px; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);">
+                    </a>
+                    <a href="https://x.com/RamyaDabbara" class="btn text-coral-400 hover:text-coral-500">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/x.svg" width="30" height="30" style="margin: 0 8px;">
+                    </a>
+                    <a href="https://github.com/RamyaDabbara" class="btn text-coral-400 hover:text-coral-500">
+                        <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/svgs/brands/github.svg" width="30" height="30" style="margin: 0 8px;">
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Footer -->
     <footer class="bg-navy-600 text-black py-8">
@@ -230,6 +194,5 @@ document.querySelectorAll('.toggle-content').forEach(button => {
             <p class="text-lg">© 2025 Ramya Dabbara. Copyrights Reserved.</p>
         </div>
     </footer>
-
 </body>
 </html>
